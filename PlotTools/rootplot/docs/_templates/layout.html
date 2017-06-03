@@ -1,0 +1,17 @@
+{% extends "!layout.html" %}
+
+{% block extrahead %}
+    <link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:bold' rel='stylesheet' type='text/css'>
+{{ super() }}
+{% endblock %}
+
+{% block rootrellink %}
+        <li><a href="{{ pathto('index') }}">home</a> | </li>
+        <li><a href="{{ pathto('rootplot') }}">rootplot</a> | </li>
+        <li><a href="{{ pathto('root2matplotlib') }}">root2matplotlib</a> | </li>
+        <li><a href="{{ pathto('rootinfo') }}">rootinfo</a> | </li>
+        <li><a href="{{ pathto('tree2hists') }}">tree2hists</a>
+          &raquo;</li>
+{% endblock %}
+
+

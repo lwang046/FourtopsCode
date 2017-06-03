@@ -1,0 +1,10 @@
+qsub SubmitScripts/2_6_2017/Dilep/submit_TTISRDown_MuEl_9to12.sh;
+qsub SubmitScripts/2_6_2017/Dilep/submit_TTISRDown_MuMu_17to20.sh;
+qsub SubmitScripts/2_6_2017/Dilep/submit_TTJetsPowheg_ElEl_29to32.sh;
+qsub SubmitScripts/2_6_2017/Dilep/submit_TTJetsPowheg_ElEl_69to72.sh;
+qsub SubmitScripts/2_6_2017/Dilep/submit_TTJetsPowheg_ElEl_65to68.sh;
+qsub SubmitScripts/2_6_2017/Dilep/submit_TTJetsPowheg_ElEl_73to76.sh;
+qsub SubmitScripts/2_6_2017/Dilep/submit_TTJetsPowheg_ElEl_81to84.sh;
+qsub SubmitScripts/2_6_2017/Dilep/submit_TTJetsPowheg_JERDown_ElEl_13to16.sh;
+qsub SubmitScripts/2_6_2017/Dilep/submit_TTJetsPowheg_JERUp_MuMu_45to48.sh;
+qsub SubmitScripts/2_6_2017/Dilep/submit_TTJetsPowheg_JESDown_ElEl_61to64.sh;

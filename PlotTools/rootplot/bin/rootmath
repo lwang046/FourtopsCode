@@ -1,0 +1,10 @@
+#!/cvmfs/cms.cern.ch/slc6_amd64_gcc530/cms/cmssw/CMSSW_8_0_21/external/slc6_amd64_gcc530/bin/python
+# EASY-INSTALL-ENTRY-SCRIPT: 'rootplot==2.2dev','console_scripts','rootmath'
+__requires__ = 'rootplot==2.2dev'
+import sys
+from pkg_resources import load_entry_point
+
+if __name__ == '__main__':
+    sys.exit(
+        load_entry_point('rootplot==2.2dev', 'console_scripts', 'rootmath')()
+    )

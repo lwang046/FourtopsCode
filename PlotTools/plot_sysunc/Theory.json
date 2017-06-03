@@ -1,0 +1,71 @@
+{
+	"canvas": [
+		{
+			"name":"Theory.png",
+			"width":1000,
+			"height":1000,
+			"nx":3,
+			"ny":1,
+			"legend":{"coord":[0.02,0.5,0.98,0.9]},
+			"pads":[
+				{"id":1, "ymin":-2.0, "ymax":2.0, "title":"4-5 jets", "refhistogram":"comb4nJets__ttbarTTX__nominal", "histograms":
+				[
+				 {"name":"comb4nJets__ttbarTTX__ttMEScaleDown", "style":[2,632,1],"title":"ME scale -1#sigma"},
+                                 {"name":"comb4nJets__ttbarTTX__ttMEScaleUp", "style":[2,632,1],"title":"ME scale +1#sigma"},
+				 {"name":"comb4nJets__ttbarTTX__TTFSRDown", "style":[2,800,1],"title":"FSR -1#sigma"},
+                                 {"name":"comb4nJets__ttbarTTX__TTFSRUp", "style":[2,800,1],"title":"FSR +1#sigma"},
+				 {"name":"comb4nJets__ttbarTTX__TTISRDown", "style":[2,860,1],"title":"ISR -1#sigma"},
+                                 {"name":"comb4nJets__ttbarTTX__TTISRUp", "style":[2,860,1],"title":"ISR +1#sigma"},
+				 {"name":"comb4nJets__ttbarTTX__TTUEDown", "style":[2,432,1],"title":"UE tune -1#sigma"},
+                                 {"name":"comb4nJets__ttbarTTX__TTUEUp", "style":[2,432,1],"title":"UE tune +1#sigma"},
+				 {"commnemt_name":"comb4nJets__ttbarTTX__btagWeightCSVHFStats2Down/bdt", "style":[2,602,1],"title":"CSVHFStats2 -1#sigma"},
+                                 {"commnemt_name":"comb4nJets__ttbarTTX__btagWeightCSVHFStats2Up//bdt", "style":[2,602,1],"title":"CSVHFStats2 +1#sigma"},
+				 {"commnemt_name":"comb4nJets__ttbarTTX__btagWeightCSVHFStats1Down/bdt", "style":[2,432,1],"title":"CSVHFStats1 -1#sigma"},
+                                 {"commnemt_name":"comb4nJets__ttbarTTX__btagWeightCSVHFStats1Up//bdt", "style":[2,432,1],"title":"CSVHFStats1 +1#sigma"},
+				 {"commnemt_name":"comb4nJets__ttbarTTX__btagWeightCSVHFDown/bdt", "style":[2,2,1],"title":"CSVHFDown -1#sigma"},
+                                 {"commnemt_name":"comb4nJets__ttbarTTX__btagWeightCSVHFUp//bdt", "style":[2,2,1],"title":"CSVHFDown +1#sigma"},
+				 {"commnemt_name":"comb4nJets__ttbarTTX__btagWeightCSVLFDown/bdt", "style":[2,3,1],"title":"CSVLFDown -1#sigma"},
+				 {"commnemt_name":"comb4nJets__ttbarTTX__btagWeightCSVLFUp//bdt", "style":[2,3,1],"title":"CSVLFDown +1#sigma"}]},
+
+				{"id":2, "ymin":-2.0, "ymax":2.0, "title":"6-7 jets", "refhistogram":"comb6nJets__ttbarTTX__nominal", "histograms":
+				[
+				 {"name":"comb6nJets__ttbarTTX__ttMEScaleDown", "style":[2,632,1],"title":"ME scale -1#sigma"},
+                                 {"name":"comb6nJets__ttbarTTX__ttMEScaleUp", "style":[2,632,1],"title":"ME scale +1#sigma"},
+				 {"name":"comb6nJets__ttbarTTX__TTFSRDown", "style":[2,800,1],"title":"FSR -1#sigma"},
+                                 {"name":"comb6nJets__ttbarTTX__TTFSRUp", "style":[2,800,1],"title":"FSR +1#sigma"},
+				 {"name":"comb6nJets__ttbarTTX__TTISRDown", "style":[2,860,1],"title":"ISR -1#sigma"},
+                                 {"name":"comb6nJets__ttbarTTX__TTISRUp", "style":[2,860,1],"title":"ISR +1#sigma"},
+				 {"name":"comb6nJets__ttbarTTX__TTUEDown", "style":[2,432,1],"title":"UE tune -1#sigma"},
+                                 {"name":"comb6nJets__ttbarTTX__TTUEUp", "style":[2,432,1],"title":"UE tune +1#sigma"},
+				 {"commnemt_name":"comb6nJets__ttbarTTX__btagWeightCSVHFStats2Down/bdt", "style":[2,602,1],"title":"CSVHFStats2 -1#sigma"},
+                                 {"commnemt_name":"comb6nJets__ttbarTTX__btagWeightCSVHFStats2Up//bdt", "style":[2,602,1],"title":"CSVHFStats2 +1#sigma"},
+				 {"commnemt_name":"comb6nJets__ttbarTTX__btagWeightCSVHFStats1Down/bdt", "style":[2,432,1],"title":"CSVHFStats1 -1#sigma"},
+                                 {"commnemt_name":"comb6nJets__ttbarTTX__btagWeightCSVHFStats1Up//bdt", "style":[2,432,1],"title":"CSVHFStats1 +1#sigma"},
+				 {"commnemt_name":"comb6nJets__ttbarTTX__btagWeightCSVHFDown/bdt", "style":[2,2,1],"title":"CSVHFDown -1#sigma"},
+                                 {"commnemt_name":"comb6nJets__ttbarTTX__btagWeightCSVHFUp//bdt", "style":[2,2,1],"title":"CSVHFDown +1#sigma"},
+				 {"commnemt_name":"comb6nJets__ttbarTTX__btagWeightCSVLFDown/bdt", "style":[2,3,1],"title":"CSVLFDown -1#sigma"},
+				 {"commnemt_name":"comb6nJets__ttbarTTX__btagWeightCSVLFUp//bdt", "style":[2,3,1],"title":"CSVLFDown +1#sigma"}]},
+
+				{"id":3, "ymin":-2.0, "ymax":2.0, "title":"8+ jets", "refhistogram":"comb8nJets__ttbarTTX__nominal", "histograms":
+				[
+				 {"name":"comb8nJets__ttbarTTX__ttMEScaleDown", "style":[2,632,1],"title":"ME scale -1#sigma"},
+                                 {"name":"comb8nJets__ttbarTTX__ttMEScaleUp", "style":[2,632,1],"title":"ME scale +1#sigma"},
+				 {"name":"comb8nJets__ttbarTTX__TTFSRDown", "style":[2,800,1],"title":"FSR -1#sigma"},
+                                 {"name":"comb8nJets__ttbarTTX__TTFSRUp", "style":[2,800,1],"title":"FSR +1#sigma"},
+				 {"name":"comb8nJets__ttbarTTX__TTISRDown", "style":[2,860,1],"title":"ISR -1#sigma"},
+                                 {"name":"comb8nJets__ttbarTTX__TTISRUp", "style":[2,860,1],"title":"ISR +1#sigma"},
+				 {"name":"comb8nJets__ttbarTTX__TTUEDown", "style":[2,432,1],"title":"UE tune -1#sigma"},
+                                 {"name":"comb8nJets__ttbarTTX__TTUEUp", "style":[2,432,1],"title":"UE tune +1#sigma"},
+				 {"commnemt_name":"comb8nJets__ttbarTTX__btagWeightCSVHFStats2Down/bdt", "style":[2,602,1],"title":"CSVHFStats2 -1#sigma"},
+                                 {"commnemt_name":"comb8nJets__ttbarTTX__btagWeightCSVHFStats2Up//bdt", "style":[2,602,1],"title":"CSVHFStats2 +1#sigma"},
+				 {"commnemt_name":"comb8nJets__ttbarTTX__btagWeightCSVHFStats1Down/bdt", "style":[2,432,1],"title":"CSVHFStats1 -1#sigma"},
+                                 {"commnemt_name":"comb8nJets__ttbarTTX__btagWeightCSVHFStats1Up//bdt", "style":[2,432,1],"title":"CSVHFStats1 +1#sigma"},
+				 {"commnemt_name":"comb8nJets__ttbarTTX__btagWeightCSVHFDown/bdt", "style":[2,2,1],"title":"CSVHFDown -1#sigma"},
+                                 {"commnemt_name":"comb8nJets__ttbarTTX__btagWeightCSVHFUp//bdt", "style":[2,2,1],"title":"CSVHFDown +1#sigma"},
+				 {"commnemt_name":"comb8nJets__ttbarTTX__btagWeightCSVLFDown/bdt", "style":[2,3,1],"title":"CSVLFDown -1#sigma"},
+				 {"commnemt_name":"comb8nJets__ttbarTTX__btagWeightCSVLFUp//bdt", "style":[2,3,1],"title":"CSVLFDown +1#sigma"}]}
+
+			]
+		}
+	]
+}
